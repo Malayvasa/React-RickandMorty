@@ -3,16 +3,53 @@
     flex-direction: column;
     background-color: #e7e7e9;
     border-radius: 5px;
-    padding: 25px;
     color: darkslategrey;
     backface-visibility: hidden;
+    text-align: center;
   }
   
   .card-image{
       width: 180px;
       height: 180px;
-      border-radius: 5px;
-      margin: auto;
+      border-radius: 300px;
+      margin: 2vh auto;
   }
- 
+
+  .name{
+    font-size : 2vh;
+    margin-top: 1rem;
+  }
+
+  .badge{
+    font-size : 1.5vh !important;
+    margin-top: auto;
+    margin-bottom: 1vh;
+}
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card-container {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .card-image{
+        width: 5vh;
+        height: 5vh;
+        border-radius: 25px;
+        margin-left: 1vh;
+        margin-right: 2vh;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .badge{
+        font-size : 1vh;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 0.5vh;
+        
+    }
+  }
   

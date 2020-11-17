@@ -3,8 +3,6 @@
 }
 
 button {
-  margin: 10px auto;
-  padding : 5px;
   color: white;
   background-color: blue;
   border-radius: 10px;
@@ -12,8 +10,13 @@ button {
   outline: none;
 }
 
-.logo {
-  margin: 25px auto;
+.logo-container {
+  margin-top: 25px;;
+}
+
+.logo-image{
+  width: 70vw;
+  max-width: 450px;
 }
 
 .alert{

@@ -55,8 +55,8 @@ class App extends Component{
 
     return(
       <div className="App">
-      <div  className="logo">
-      <img style={{width: 450}} alt="logo" src={logo}></img>
+      <div  className="logo-container">
+      <img className="logo-image" alt="logo" src={logo}></img>
       </div>
 
       <Button className="button" onClick={() =>
