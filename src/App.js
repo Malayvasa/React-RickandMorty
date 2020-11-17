@@ -2,7 +2,8 @@ import React, {Component} from 'react'
 import {CardList} from './components/card-list/card-list.component'
 import {SearchBox} from './components/search-box/search-box.component'
 import logo from '../src/logo.png'
-import Button from 'react-bootstrap/Button';
+import Button  from 'react-bootstrap/Button';
+import {EmptyAlert} from './components/empty-alert/empty-alert.component';
 import FA from 'react-fontawesome'
 import './App.css';
 
@@ -35,11 +36,23 @@ class App extends Component{
     this.setState({searchField:e.target.value})
   }
 
+  Greeting = (props) => {
+    if (props.filteredCharacters === "") {
+      return <EmptyAlert />;
+    }
+  }
+
   render(){
     const { characters, searchField } = this.state;
     const filteredCharacters = characters.filter(character => 
       character.name.toLowerCase().includes(searchField.toLowerCase())
     )
+
+    let alert;
+    if (!filteredCharacters.length) {
+      alert = <EmptyAlert className="alert"/>;
+    } 
+
     return(
       <div className="App">
       <div  className="logo">
@@ -59,6 +72,8 @@ class App extends Component{
       <Button className="button" onClick={() =>
           this.setState({ page: this.state.page + 1 })
       }><FA name="chevron-circle-right"></FA></Button>
+
+      <div>{alert}</div>
 
       <CardList characters={filteredCharacters}/>
       </div>

@@ -14,5 +14,9 @@ button {
 
 .logo {
   margin: 25px auto;
-  
+}
+
+.alert{
+  width: 85vw;
+  margin: auto;
 }
