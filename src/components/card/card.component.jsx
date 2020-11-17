@@ -9,3 +9,4 @@ export const Card = (props) => (
         <p>Species : {props.character.species}</p>
     </div>
 )
+
