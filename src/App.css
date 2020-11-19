@@ -2,16 +2,9 @@
   text-align: center;
 }
 
-button {
-  color: white;
-  background-color: blue;
-  border-radius: 10px;
-  border-width: 0px;
-  outline: none;
-}
-
-.logo-container {
-  margin-top: 25px;;
+.dark-App {
+  text-align: center;
+  background-color:rgb(28, 28, 30);
 }
 
 .logo-image{

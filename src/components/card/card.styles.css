@@ -1,37 +1,51 @@
 .card-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #e7e7e9;
-    border-radius: 5px;
-    color: darkslategrey;
-    backface-visibility: hidden;
-    text-align: center;
-  }
-  
-  .card-image{
-      width: 180px;
-      height: 180px;
-      border-radius: 300px;
-      margin: 2vh auto;
-  }
-
-  .name{
-    font-size : 2vh;
-    margin-top: 1rem;
-  }
-
-  .badge{
-    font-size : 1.5vh !important;
-    margin-top: auto;
-    margin-bottom: 1vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #e7e7e9;
+  border-radius: 5px;
+  backface-visibility: hidden;
+  text-align: center;
 }
-  
+
+.dark-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(72,72,74);
+  border-radius: 5px;
+  backface-visibility: hidden;
+  text-align: center;
+}
+
+.card-image{
+    width: 180px;
+    height: 180px;
+    border-radius: 300px;
+    margin: 2vh auto;
+}
+
+.dark-name{
+  font-size : 2vh;
+  margin-top: 1rem;
+  color: rgb(242,242,247);
+}
+
+.badge{
+  font-size : 1.5vh !important;
+  margin-top: auto;
+  margin-bottom: 1vh;
+}
+
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .card-container {
         flex-direction: row;
         text-align: left;
     }
+
+    .dark-card-container {
+      flex-direction: row;
+      text-align: left;
+  }
 
     .card-image{
         width: 5vh;

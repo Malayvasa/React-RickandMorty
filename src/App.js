@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from "react";
 import {CardList} from './components/card-list/card-list.component'
 import {SearchBox} from './components/search-box/search-box.component'
 import logo from '../src/logo.png'
@@ -7,7 +7,8 @@ import {EmptyAlert} from './components/empty-alert/empty-alert.component';
 import FA from 'react-fontawesome'
 import './App.css';
 
-class App extends Component{
+class App extends React.Component{
+
   constructor(){
     super();
 
@@ -54,8 +55,8 @@ class App extends Component{
     } 
 
     return(
-      <div className="App">
-      <div  className="logo-container">
+      <div className="dark-App">
+      <div>
       <img className="logo-image" alt="logo" src={logo}></img>
       </div>
 

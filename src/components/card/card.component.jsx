@@ -13,9 +13,9 @@ export const Card = (props) => {
     }
 
     return(
-    <div className="card-container">
+    <div className="dark-card-container">
         <img className="card-image" alt="character" src={props.character.image}/>
-        <p className="name">{props.character.name}</p>
+        <p className="dark-name">{props.character.name}</p>
         <p className="badge">{alert}</p>
         {/* <p>Origin : {props.character.origin.name}</p>
         <p>Species : {props.character.species}</p> */}
