@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-RickandMorty/static/css/main.e0e24510.chunk.css",
-    "main.js": "/React-RickandMorty/static/js/main.fae7e21b.chunk.js",
-    "main.js.map": "/React-RickandMorty/static/js/main.fae7e21b.chunk.js.map",
+    "main.css": "/React-RickandMorty/static/css/main.9e542057.chunk.css",
+    "main.js": "/React-RickandMorty/static/js/main.7ea9ece2.chunk.js",
+    "main.js.map": "/React-RickandMorty/static/js/main.7ea9ece2.chunk.js.map",
     "runtime-main.js": "/React-RickandMorty/static/js/runtime-main.9880fa45.js",
     "runtime-main.js.map": "/React-RickandMorty/static/js/runtime-main.9880fa45.js.map",
     "static/css/2.1a02f21c.chunk.css": "/React-RickandMorty/static/css/2.1a02f21c.chunk.css",
@@ -12,15 +12,15 @@
     "static/js/3.189e7a6a.chunk.js.map": "/React-RickandMorty/static/js/3.189e7a6a.chunk.js.map",
     "index.html": "/React-RickandMorty/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/React-RickandMorty/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.e0e24510.chunk.css.map": "/React-RickandMorty/static/css/main.e0e24510.chunk.css.map",
+    "static/css/main.9e542057.chunk.css.map": "/React-RickandMorty/static/css/main.9e542057.chunk.css.map",
     "static/js/2.50157266.chunk.js.LICENSE.txt": "/React-RickandMorty/static/js/2.50157266.chunk.js.LICENSE.txt",
-    "static/media/logo.23a3f17c.png": "/React-RickandMorty/static/media/logo.23a3f17c.png"
+    "static/media/logo.45e7cc94.png": "/React-RickandMorty/static/media/logo.45e7cc94.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9880fa45.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.50157266.chunk.js",
-    "static/css/main.e0e24510.chunk.css",
-    "static/js/main.fae7e21b.chunk.js"
+    "static/css/main.9e542057.chunk.css",
+    "static/js/main.7ea9ece2.chunk.js"
   ]
 }
